@@ -2,9 +2,6 @@
 #include <covscript/extension.hpp>
 #include <jni.h>
 
-static JavaVM *jvm;
-static JNIEnv *env;
-
 static cs::extension jvm_ext;
 static cs::extension_t jvm_ext_shared = cs::make_shared_extension(jvm_ext);
 
